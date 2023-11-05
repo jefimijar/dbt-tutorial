@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_prescription_items
+    description: ""
+    columns: 
+      - name: _airbyte_unique_key_scd
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: prescription_id
+        description: ""
+      - name: drug_id
+        description: ""
+      - name: quantity
+        description: ""
+      - name: _airbyte_start_at
+        description: ""
+      - name: _airbyte_end_at
+        description: ""
+      - name: _airbyte_active_row
+        description: "" 

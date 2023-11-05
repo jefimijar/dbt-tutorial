@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: ""
+    columns: 
+      - name: _airbyte_ab_id
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: ID
+        description: ""
+      - name: country
+        description: ""
+      - name: city
+        description: ""
+      - name: zip_code
+        description: ""
+      - name: street
+        description: "" 
+      - name: num
+        description: "" 

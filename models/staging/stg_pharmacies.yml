@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_pharmacies
+    description: ""
+    columns: 
+      - name: _airbyte_unique_key_scd
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: ID
+        description: ""
+      - name: NAME
+        description: "" 
+      - name: phone_number
+        description: ""
+      - name: address_id
+        description: ""
+      - name: _airbyte_start_at
+        description: ""
+      - name: _airbyte_end_at
+        description: ""
+      - name: _airbyte_active_row
+        description: ""

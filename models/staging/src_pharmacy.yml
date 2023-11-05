@@ -1,0 +1,17 @@
+version: 2
+
+sources: 
+  - name: pharmacy
+    database: warehouse
+    schema: public
+    tables:
+      - name: payment_methods_scd
+      - name: patients_scd
+      - name: addresses
+      - name: pharmacies_scd
+      - name: physicians_scd
+      - name: categories
+      - name: companies
+      - name: drugs_scd
+      - name: prescriptions_scd
+      - name: prescription_items_scd

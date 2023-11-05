@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_prescriptions
+    description: ""
+    columns: 
+      - name: _airbyte_unique_key_scd
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: ID
+        description: ""
+      - name: patient_id
+        description: ""
+      - name: physician_id
+        description: ""
+      - name: pharmacy_id
+        description: ""
+      - name: payment_method_id
+        description: ""		
+      - name: code
+        description: "" 
+      - name: transaction_date
+        description: ""
+      - name: _airbyte_start_at
+        description: ""
+      - name: _airbyte_end_at
+        description: ""
+      - name: _airbyte_active_row
+        description: "" 

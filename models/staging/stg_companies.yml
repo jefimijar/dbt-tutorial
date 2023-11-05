@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_companies
+    description: ""
+    columns: 
+      - name: _airbyte_ab_id
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: ID
+        description: ""
+      - name: NAME
+        description: ""
